@@ -160,8 +160,8 @@ border-color: #1130ad;}
   .slide {
       animation-name: slide;
       -webkit-animation-name: slide;
-      animation-duration: 1s;
-      -webkit-animation-duration: 1s;
+      animation-duration: 0,5s;
+      -webkit-animation-duration: 0,5s;
       visibility: visible;
   }
   @keyframes slide {
@@ -207,6 +207,7 @@ width: 270px;}
     display: block;
     margin: auto;
     height: 5%;
-    width: 5%;
-    justify-content: center;
+    width: 5% ;
+    justify-content: left;
 }
+
